@@ -1,0 +1,27 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 29 Aug 2023 04:24:29 at https://eecsonline.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://eecsonline.com/ -O1 "C:\My Web Sites\eecs" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+04:25:01	Error: 	"Not Found" (404) at link https://eecsonline.com/single_news.html (from https://eecsonline.com/)
+04:25:19	Error: 	"Not Found" (404) at link https://eecsonline.com/contact.html (from https://eecsonline.com/faq.html)
+04:25:19	Error: 	"Not Found" (404) at link https://eecsonline.com/contcat.html (from https://eecsonline.com/faq.html)
+04:25:19	Error: 	"Not Found" (404) at link https://eecsonline.com/translate.google.com/translate_a/elementa0d8.html?cb=googleTranslateElementInit (from https://eecsonline.com/faq.html)
+04:25:19	Error: 	"Not Found" (404) at link https://eecsonline.com/index.php/index.html (from https://eecsonline.com/contact.php)
+04:25:19	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/zlxt2g97r5sij4tkklyaprdv5stpewez.js (from https://eecsonline.com/track.php?id=)
+04:25:22	Error: 	"Not Found" (404) at link https://eecsonline.com/faq.php (from https://eecsonline.com/track.php?id=)
+04:25:22	Error: 	"Not Found" (404) at link https://eecsonline.com/index.php (from https://eecsonline.com/track.php?id=)
+04:25:22	Error: 	"Not Found" (404) at link https://eecsonline.com/boss-man/assets/images/uploads// (from https://eecsonline.com/track.php?id=)
+04:25:22	Error: 	"Not Found" (404) at link https://eecsonline.com/js/bouncemarker.js (from https://eecsonline.com/track.php?id=)
+04:25:22	Error: 	"Bad Request" (400) at link https://tile.openstreetmap.org/{z}/{x}/{y}.png (from https://eecsonline.com/track.php?id=)
+04:25:22	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/zlxt2g97r5sij4tkklyaprdv5stpewez.js (from https://eecsonline.com/track.php?id=)
+04:25:22	Warning: 	Retry after error -4 (No data (connection closed)) at link https://unpkg.com/leaflet@1.3.1/dist/images/layers.png (from https://unpkg.com/leaflet@1.3.1/dist/leaflet.css)
+04:25:22	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://code.tidio.co:443/zlxt2g97r5sij4tkklyaprdv5stpewez.js (from https://eecsonline.com/track.php?id=)
+04:25:22	Warning: 	Retry after error -4 (No data (connection closed)) at link https://unpkg.com/leaflet@1.3.1/dist/images/layers.png (from https://unpkg.com/leaflet@1.3.1/dist/leaflet.css)
+04:25:23	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://unpkg.com/leaflet@1.3.1/dist/images/layers.png (from https://unpkg.com/leaflet@1.3.1/dist/leaflet.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 54 seconds : 110 links scanned, 93 files written (4732893 bytes overall) [2930867 bytes received at 54275 bytes/sec], 3264422 bytes transferred using HTTP compression in 56 files, ratio 42%, 5.4 requests per connection
+(12 errors, 4 warnings, 0 messages)
